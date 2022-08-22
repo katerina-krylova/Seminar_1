@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int A = 5;
+int B =7;
+int max = A;
+int min = B;
+if (A > max) max=A;
+if (B > max) max=B;
+if (B < min) min=B;
+if (A < min) min=A;
+Console.Write ("max =");
+Console.WriteLine (max);
+Console.Write ("min =");
+Console.WriteLine (min);
